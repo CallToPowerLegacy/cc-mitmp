@@ -1,0 +1,27 @@
+{
+  "name": "cc-mitmp",
+  "version": "3.2.1",
+  "description": "COYO Cloud - Man In The Middle Proxy",
+  "author": "Denis Meyer, COYO GmbH",
+  "email": "denis.meyer@coyoapp.com",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/CallToPower/cc-mitmp.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "clientsuccess-api": "git://github.com/mindsmash/clientsuccess-api.git",
+    "connect-timeout": "1.9.0",
+    "express": "4.16.2",
+    "request": "2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  }
+}
